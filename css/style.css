@@ -1,0 +1,1582 @@
+.container{
+ 
+    background-image: url('../Images/background.jpg');
+    background-attachment: fixed;
+    width: 1366px;
+    display: block;
+    margin: 0 auto;    
+}
+
+.clearfix{
+    
+    display: block;
+    width: 100%;
+    clear: both;
+    float: none;
+}
+
+
+button{
+      cursor: pointer;
+}
+
+
+.white {
+ 
+    color: #ffffff;
+}
+
+.white::-webkit-input-placeholder{
+ 
+    color: #ffffff;
+}
+
+.navbar{
+    
+    width: 1366px;
+    height: 130px;
+    background-color: #000000;
+}
+
+.navbar ul li a{
+  
+    color: #ffffff;
+    text-decoration: none;
+    font-family: 'Teko', sans-serif;  
+    font-size: 25px;
+}
+
+.navbar ul li a:hover{
+    
+    color: #fcb343;
+}
+
+.float-left ul li, .logo, .float-right ul li{
+  
+    display: inline-block; 
+}
+
+.float-left {
+    
+    float: left;
+}
+.float-right{
+   
+    float: right;
+}
+
+.main-menu-one li{
+    
+    padding: 50px;
+    margin-left: 70px;
+}
+
+.main-menu-two li{
+
+    padding: 50px;
+    margin-right: 70px;
+}
+
+
+.logo{
+    
+   margin-left: 150px;
+   margin-top: 10px;
+}
+
+.btn-box{
+    
+    margin-left: 120px;
+    margin-top: 50px;
+    border: 1px solid #fcb343;
+    box-sizing: border-box;
+    width: 1143px;
+    height: 63px;
+    position: relative;
+}
+
+.btn-img{
+    
+     box-sizing: border-box;
+}
+
+.order-btn{
+    
+    height: 40px;
+    font-size: 30px;
+    font-family: 'Teko', sans-serif;
+    color: #000000;
+    background-color: #fcb343;
+    border: none;
+    width: 500px;
+    position: absolute;
+    top: 10px;
+    left: 306px;
+}
+
+button:hover {
+    
+    background-color: #ce8e2b;
+}
+
+.weeklicious{
+    
+    position: relative;
+}
+
+.slide-show-box{
+   
+    margin-left: 120px;
+    margin-top: 50px;
+    border: 1px solid #fcb343;
+    box-sizing: border-box;
+    width: 1143px;
+    height: 433px;
+    position: absolute;
+}
+
+
+.name{
+    
+    position: absolute;
+    text-shadow: 15px 15px 20px #000000;
+    font-family: 'Mogra', cursive;
+    color: #fcb343;
+    font-size: 148px;
+    top: 320px;
+    left: 286px;
+}
+
+.R35{
+    
+    width: 130px;
+    position: absolute;
+    text-shadow: 15px 15px 20px #000000;
+    font-family: 'Mogra', cursive;
+    color: #fcb343;
+    font-size: 120px;
+    top: 85px;
+    right: 260px;
+    }
+
+.come-on{
+    
+    position: absolute;
+    text-shadow: 15px 15px 20px #000000;
+    font-family: 'Mogra', cursive;
+    color: #fa4d05;
+    font-size: 50px;
+    top: 274px;
+    left: 300px;
+}
+
+.right{
+    
+    position: absolute;
+    top: 220px;
+    right: 120px;
+    float: right;
+
+}
+
+.left{
+    
+    position: absolute;
+    top: 220px;
+    left: 135px;
+    float: left;
+
+}
+
+.specials{
+    
+    padding-top: 620px;
+    position: relative;
+    
+}
+
+.img-right{
+    
+    top: 560px;
+    right: 102px;
+    position: absolute;
+    border: 1px solid #fcb343;
+    width: 565px;
+    height: 598px;
+}
+
+.two-images{
+    
+    position: absolute; 
+    top: 510px;
+}
+
+.img-up{
+    
+    box-sizing: border-box;  
+    margin-left: 120px;
+    margin-top: 50px;
+    border: 1px solid #fcb343;
+    box-sizing: border-box;
+    width: 538px;
+    height: 274px;
+}
+
+.chicken-meals{
+    
+    box-sizing: border-box;
+    text-shadow: 15px 15px 20px #000000;
+    font-family: 'Mogra', cursive;
+    color: #fcb343;
+    font-size: 60px;
+    margin-top: -76px;
+    margin-left: 54px;
+}
+
+.speech-bubble-one{
+    
+    opacity: 0;
+    z-index: 10;
+    position: absolute;
+    top: 520px;
+    left: 130px;
+}
+
+.speech-bubble-one:hover{
+   
+    opacity: 1;
+}
+
+.img-down{
+    
+    margin-left: 120px;
+    margin-top: 50px;
+    border: 1px solid #fcb343;
+    width: 535px;
+    height: 274px;
+}
+
+
+.sqaure-slyders{
+    
+    box-sizing: border-box;
+    text-shadow: 15px 15px 20px #000000;
+    font-family: 'Mogra', cursive;
+    color: #fcb343;
+    font-size: 60px;
+    margin-top: -76px;
+    margin-left: 40px;
+}
+
+.speech-bubble-two{
+    
+    opacity: 0;
+    z-index: 21;
+    position: absolute;
+    left: 420px;
+    top: 800px;
+}
+
+.speech-bubble-two:hover{
+    
+    opacity: 1;
+}
+
+.img-right a{
+    
+    text-decoration: none;
+}
+
+.chicken-burger{
+    
+    text-align: center;
+    z-index: 20;
+    position: absolute;    
+    text-shadow: 15px 15px 20px #000000;
+    font-family: 'Mogra', cursive;
+    color: #fcb343;
+    font-size: 60px;
+    bottom: 20px;
+    left: 55px;
+}
+
+.chicken-burger:hover{
+    
+    font-size: 63px;
+    color: #fa4d05;
+}
+
+.video-board{
+    
+    border: 1px solid #fcb343;
+    box-sizing: border-box;
+    width: 1140px;
+    height: 535px;
+    margin-left: 120px;
+}
+
+.more{
+    
+    height: 40px;
+    font-size: 30px;
+    font-family: 'Teko', sans-serif;
+    color: #000000;
+    background-color: #fcb343;
+    border: none;
+    width: 100px;
+    position: absolute;
+    top: 470px;
+    right: 210px;
+}
+
+
+.speech-bubble-three{
+    
+    opacity: 0;
+    top: 490px;
+    right: 0px;
+    position: absolute;
+    z-index: 10;
+}
+
+.speech-bubble-three:hover{
+    
+    opacity: 1;
+}
+
+.videos{
+    
+   position: relative;  
+}
+
+.video-board{
+    
+    margin-top: 600px;
+}
+
+.text{
+
+    position: absolute;
+    top: 30px;
+    left: 400px;
+    text-align: center;
+    font-family: 'Teko', sans-serif;
+    font-size: 46px;
+    color: #ffffff;
+}
+
+.video-one{
+    
+     position: absolute;
+     border: 0.5px solid #fcb343;
+     width: 448.4px;
+     height: 253px;
+     top: 200px;
+     left: 210px;
+}
+
+.video-two{
+    
+     position: absolute;
+     border: 0.5px solid #fcb343;
+     width: 448.4px;
+     height: 253px;
+     top: 200px;
+     right: 210px;
+}
+
+footer{
+    
+    position: relative;
+
+}
+
+.footer-background{
+    
+    margin-top: 60px;
+
+}
+
+.stuff{
+    
+    left: 117px;
+    top: 150px;
+    z-index: 20;
+    position: absolute;
+    font-family: 'Teko', sans-serif;
+    font-size: 46px;
+    color: #ffffff;
+}
+
+.follow{
+    
+    right: 102px;
+    top: 150px;
+    z-index: 20;
+    position: absolute;
+    font-family: 'Teko', sans-serif;
+    font-size: 46px;
+    color: #ffffff
+}
+
+hr{
+    
+     border: 1px solid #fcb343;
+     width: 84%;
+     position: absolute;
+     top: 200px;
+     left: 115px;
+}
+
+.footer-text h3{
+    
+     font-family: 'Teko', sans-serif;
+     font-size: 35px;
+     color: #ffffff;
+}
+
+.pr{
+    
+    position: absolute;
+    right: 280px;
+    top: 240px;
+}
+
+.menu{
+    
+    position: absolute;
+    left: 130px;
+    top: 240px;
+}
+
+.customer{
+    
+    position: absolute;
+    left: 495px;
+    top: 240px;
+}
+
+.franchise{
+    
+    position: absolute;
+    right: 535px;
+    top: 240px;
+}
+
+.fanclup{
+    
+    position: absolute;
+    right: 380px;
+    top: 240px;
+}
+
+.vertical-line{
+    
+    position: absolute;
+    right: 236px;
+    top: 209px;
+    border-right: 1px solid #fcb343;
+    height: 364px;
+    width: 100px;
+}
+
+footer ul li a{
+    
+    font-family: 'Lato', sans-serif;
+    font-size: 18px;
+    color: #ffffff;
+    text-decoration: none;
+    line-height: 28px;
+}
+
+.menu-footer-one{
+    
+    position: absolute; 
+    left: 130px;
+    top: 300px;
+}
+
+.menu-footer-two{
+    
+    position: absolute; 
+    left: 330px;
+    top: 300px;
+}
+
+.customer-care{
+    
+    position: absolute; 
+    left: 495px;
+    top: 300px;
+}
+
+.franchise-list{
+    
+    position: absolute; 
+    right: 550px;
+    top: 300px;
+}
+
+.youtube{
+    
+    position: absolute; 
+    right: 140px;
+    top: 240px;
+}
+
+.twitter{
+    
+    position: absolute; 
+    right: 140px;
+    top: 330px;
+}
+
+.facebook{
+    
+    position: absolute; 
+    right: 140px;
+    top: 420px;
+}
+
+.instagram{
+    
+    position: absolute; 
+    right: 140px;
+    top: 510px;
+}
+
+.content{
+    
+    padding-top: 1px;
+}
+
+.copyright{
+    
+    font-family: 'Teko', sans-serif;
+    font-size: 16px;
+    font-weight: lighter;
+    color: #ffffff;
+    position: absolute; 
+    bottom: 20px;
+    left: 600px;
+}
+
+
+
+
+
+
+/*menu page*/
+
+
+
+
+
+
+.wooden-board{
+    
+    padding-bottom: 500px;
+    position: relative;
+}
+
+.wooden-board-menu{
+    
+    border: 1px solid #fcb343;
+    width: 1138px;
+    height: 386px;
+    position: absolute;
+    left: 117px;
+    top: 50px;
+}
+
+.soul-food{
+    
+    z-index: 20;
+    font-family: 'Teko', sans-serif;
+    font-size: 95px;
+    color: #ffffff;
+    text-align: center;
+    position: absolute;
+    top: 170px;
+    left: 400px;
+}
+
+.menu-items{
+    
+    border: 1px solid #fcb343;
+    width: 340px;
+    height: 231px;
+}
+
+.food-menu-one{
+    
+    position: relative;
+    padding-bottom: 30px;
+    width: 100%;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    justify-content: space-around;
+}
+
+.food-menu-two{
+    
+    position: relative;
+    padding-bottom: 30px;
+    width: 100%;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    justify-content: space-around;
+}
+
+.food-menu-three{
+    
+    position: relative;
+    width: 100%;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    justify-content: space-around;
+}
+
+.menu-hotwings{
+    
+    border: 1px solid #fcb343;
+    width: 340px;
+    height: 231px;
+    margin-left: 85px;
+}
+
+.manu-chicken-meals{
+    
+    
+    border: 1px solid #fcb343;
+    width: 340px;
+    height: 231px;    
+    margin-right: 77px; 
+}
+
+.memu-soulicious{
+    
+    border: 1px solid #fcb343;
+    width: 340px;
+    height: 231px;
+    margin-left: 85px;
+}
+
+.menu-square-burger{
+    
+    border: 1px solid #fcb343;
+    width: 340px;
+    height: 231px;    
+    margin-right: 77px; 
+}
+
+.menu-chicken-pops{
+    
+    border: 1px solid #fcb343;
+    width: 340px;
+    height: 231px;
+    margin-left: 85px;
+}
+
+.menu-ice-cream{
+    
+    border: 1px solid #fcb343;
+    width: 340px;
+    height: 231px;    
+    margin-right: 77px; 
+}
+
+.food-menu a{
+    
+    text-align: center;
+    text-decoration: none;
+    font-family: 'Mogra', cursive;
+    color: #fcb343;
+    font-size: 25px;
+}
+
+.hotwings-btn{
+    
+    z-index: 20;
+    position: absolute;
+    border: 1px solid #fcb343;
+    padding: 10px;
+    width: 200px;
+}
+
+.hotwings-btn-box{
+    
+    position: absolute;
+    background-color: #000000;
+    height: 45px;
+    width: 221px;
+    opacity: 0.5;
+}
+
+.hotwings-btn, .hotwings-btn-box{
+    
+    left: 175px;
+    top: 160px;
+    
+}
+
+.hotwings-btn:hover{
+    
+   background-color: #000000;
+}
+
+
+.chicken-btn{
+    
+    z-index: 20;
+    position: absolute;
+    border: 1px solid #fcb343;
+    padding: 10px;
+    width: 200px;
+}
+
+.chicken-btn-box{
+    
+    position: absolute;
+    background-color: #000000;
+    height: 45px;
+    width: 221px;
+    opacity: 0.5;
+}
+
+.chicken-btn, .chicken-btn-box{
+    
+    left: 575px;
+    top: 160px;
+    
+}
+
+.chicken-btn:hover{
+    
+   background-color: #000000;
+}
+
+.chicken-meal-btn{
+    
+    z-index: 20;
+    position: absolute;
+    border: 1px solid #fcb343;
+    padding: 10px;
+    width: 200px;
+}
+
+.chicken-meal-btn-box{
+    
+    position: absolute;
+    background-color: #000000;
+    height: 45px;
+    width: 221px;
+    opacity: 0.5;
+}
+
+.chicken-meal-btn, .chicken-meal-btn-box{
+    
+    right: 165px;
+    top: 160px;
+    
+}
+
+.chicken-meal-btn:hover{
+    
+   background-color: #000000;
+}
+
+.soulicious-btn{
+    
+    z-index: 20;
+    position: absolute;
+    border: 1px solid #fcb343;
+    padding: 10px;
+    width: 200px;
+}
+
+.soulicious-btn-box{
+    
+    position: absolute;
+    background-color: #000000;
+    height: 70px;
+    width: 221px;
+    opacity: 0.5;
+}
+
+.soulicious-btn, .soulicious-btn-box{
+    
+    left: 175px;
+    top: 130px;
+    
+}
+
+.soulicious-btn:hover{
+    
+   background-color: #000000;
+}
+
+.burger-btn{
+    
+    z-index: 20;
+    position: absolute;
+    border: 1px solid #fcb343;
+    padding: 10px;
+    width: 200px;
+}
+
+.burger-btn-box{
+    
+    position: absolute;
+    background-color: #000000;
+    height: 70px;
+    width: 221px;
+    opacity: 0.5;
+}
+
+.burger-btn, .burger-btn-box{
+    
+    left: 575px;
+    top: 130px;
+    
+}
+
+.burger-btn:hover{
+    
+   background-color: #000000;
+}
+
+.square-burger-btn{
+    
+    z-index: 20;
+    position: absolute;
+    border: 1px solid #fcb343;
+    padding: 10px;
+    width: 200px;
+}
+
+.square-burger-btn-box{
+    
+    position: absolute;
+    background-color: #000000;
+    height: 45px;
+    width: 221px;
+    opacity: 0.5;
+}
+
+.square-burger-btn, .square-burger-btn-box{
+    
+    right: 165px;
+    top: 152px;
+    
+}
+
+.square-burger-btn:hover{
+    
+    background-color: #000000;
+}
+
+.chicken-pops-btn{
+    
+    z-index: 20;
+    position: absolute;
+    border: 1px solid #fcb343;
+    padding: 10px;
+    width: 200px;
+}
+
+.chicken-pops-btn-box{
+    
+    position: absolute;
+    background-color: #000000;
+    height: 70px;
+    width: 221px;
+    opacity: 0.5;
+}
+
+.chicken-pops-btn, .chicken-pops-btn-box{
+    
+    left: 175px;
+    top: 130px;
+    
+}
+
+.chicken-pops-btn:hover{
+    
+    background-color: #000000;
+}
+
+.salad-btn{
+    
+    z-index: 20;
+    position: absolute;
+    border: 1px solid #fcb343;
+    padding: 10px;
+    width: 200px;
+}
+
+.salad-btn-box{
+    
+    position: absolute;
+    background-color: #000000;
+    height: 70px;
+    width: 221px;
+    opacity: 0.5;
+}
+
+.salad-btn, .salad-btn-box{
+    
+    left: 575px;
+    top: 130px;
+    
+}
+
+.salad-btn:hover{
+    
+    background-color: #000000;
+}
+
+.ice-cream-btn{
+    
+    z-index: 20;
+    position: absolute;
+    border: 1px solid #fcb343;
+    padding: 10px;
+    width: 200px;
+}
+
+.ice-cream-btn-box{
+    
+    position: absolute;
+    background-color: #000000;
+    height: 45px;
+    width: 221px;
+    opacity: 0.5;
+}
+
+.ice-cream-btn, .ice-cream-btn-box{
+    
+    right: 165px;
+    top: 130px;
+    
+}
+
+.ice-cream-btn:hover{
+    
+    background-color: #000000;
+}
+
+
+
+
+
+
+/*burger page*/
+
+
+
+
+
+
+
+
+.burger-food{
+    
+    z-index: 20;
+    font-family: 'Teko', sans-serif;
+    font-size: 120px;
+    color: #ffffff;
+    text-align: center;
+    position: absolute;
+    top: 150px;
+    left: 420px;
+}
+
+.article-one{
+        
+    position: relative;
+    width: 100%;
+    padding-top: 100px;
+    padding-bottom: 200px;
+}
+
+.article-one .yellow-burger{
+    
+    z-index: 20;
+    font-family: 'Teko', sans-serif;
+    font-size: 24px;
+    font-weight: normal;
+    color: #fcb343;
+    position: absolute;
+    top: 120px;
+    left: 557px;
+    }
+
+.article-one .red-burger{
+    
+    z-index: 20;
+    font-family: 'Teko', sans-serif;
+    font-size: 24px;
+    font-weight: normal;
+    color: #fa4d05;
+    position: absolute;
+    top: 120px;
+    right: 545px;
+    }
+
+.article-one h3{
+    
+    z-index: 20;
+    font-family: 'Teko', sans-serif;
+    font-size: 50px;
+    color: #ffffff;
+    position: absolute;
+    top: 116px;
+    left: 117px;
+}
+
+
+.article-one div{
+    
+    z-index: 20;
+    position: absolute;
+    border: 1px solid #fcb343;
+    height: 270px;
+    width: 330px;
+    top: 26px;
+    right: 110px;
+}
+
+.article-one .burger-text{
+     
+    font-family: 'Lato', sans-serif;
+    font-size: 25px;
+    color: #ffffff;
+    position: absolute;
+    top: 170px;
+    left: 117px;
+}
+
+.article-one .yellow{
+    
+    z-index: 20;
+    font-family: 'Teko', sans-serif;
+    font-size: 70px;
+    color: #fcb343;
+    position: absolute;
+    top: 136px;
+    left: 555px;
+}
+
+.article-one .red{
+    
+    z-index: 20;
+    font-family: 'Teko', sans-serif;
+    font-size: 70px;
+    color: #fa4d05;
+    position: absolute;
+    top: 136px;
+    right: 485px; 
+}
+
+.article-one .top{
+    
+    z-index: 20;
+    font-family: 'Teko', sans-serif;
+    font-size: 28px;
+    color: #fa4d05;
+    position: absolute;
+    bottom: -60px;
+    left: 117px;
+}
+
+.article-one .burger-yellow-btn{
+   
+    width: 140px;
+    height: 40px;
+    font-size: 30px;
+    font-family: 'Teko', sans-serif;
+    color: #000000;
+    background-color: #fcb343;
+    border: none;
+    position: absolute;
+    top: 200px;
+    left: 555px;
+}
+.article-one .burger-yellow-btn:hover{
+   
+    background-color: #ce8e2b;
+}
+
+.article-one .burger-red-btn{
+       
+    width: 140px;
+    height: 40px;
+    font-size: 30px;
+    font-family: 'Teko', sans-serif;
+    color: #000000;
+    background-color: #fa4d05;
+    border: none;
+    position: absolute;
+    top: 200px;
+    right: 485px; 
+}
+
+.article-one .burger-red-btn:hover{
+       
+    background-color: #842903;
+}
+
+
+.place-order{
+    
+    padding-top: 150px;
+    padding-bottom: 50px;
+}
+
+
+
+
+
+
+
+/*contact page*/
+
+
+
+
+
+
+
+
+.map-section{
+    
+    position: relative;
+}
+
+
+.map-box{
+    
+    z-index: 20;
+    position: absolute;
+    left: 112px;
+    top: 70px;
+    border: 2px solid #fcb343;
+    height: 430px;
+    width: 1140px;
+}
+
+
+input[type=text], select, textarea {
+    
+    width: 900px;
+    padding: 12px; 
+    border: 1px solid #fcb343;
+    box-sizing: border-box;
+    margin-top: 6px; 
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+
+
+
+input[type=submit]:hover {
+    
+    background-color: #ce8e2b;
+}
+
+
+.form{
+    
+    position: relative;
+    padding-top: 600px;
+    padding-bottom: 700px;
+}
+
+
+.form-box{
+    
+    position: absolute;
+    border: 1px solid #fcb343;
+    width: 1140px;
+    height: 535px;
+    left: 113px;
+}
+
+.message-form{
+    
+    position: absolute;
+    left: 115px;
+    top: 90px;
+}
+
+.submit{
+    
+   position: absolute;
+   left: 305px;
+   top: 350px;
+   font-size: 30px;
+   font-family: 'Teko', sans-serif;
+   color: #000000;
+   background-color: #fcb343;
+   width: 300px;
+   border: none;
+}
+
+label{
+    
+    font-family: 'Lato', sans-serif;
+    font-size: 18px;
+    color: #000000;
+}
+
+.hotline{
+    
+    font-family: 'Teko', sans-serif;
+    font-size: 60px;
+    color: #fcb343;
+    position: absolute;
+    left: 116px;
+    top: 600px;
+}
+
+.number{
+    
+    font-family: 'Teko', sans-serif;
+    font-size: 60px;
+    color: #fcb343;
+    position: absolute;
+    right: 128px;
+    top: 600px;
+}
+
+.address{
+    
+    font-family: 'Lato', sans-serif;
+    font-size: 31.5px;
+    color: #ffffff;
+    position: absolute;
+    left: 113px;
+    top: 700px;
+}
+
+
+
+
+
+
+
+
+/*sign in page*/
+
+
+
+
+
+
+
+
+.sign-up-box{
+    
+    border: 1px solid #fcb343;
+    width: 1137px;
+    height: 530px;
+    position: relative;
+    margin-bottom: 150px;
+    left: 113px;
+    top: 100px;
+}
+
+.username {
+    
+    font-family: 'Lato', sans-serif;
+    z-index: 20;
+    border: 1px solid #fcb343;
+    width: 800px;
+    padding: 12px 20px;
+    margin: 8px 0;
+    position: absolute;
+    left: 116px;
+    top: 100px;
+}
+
+.password{
+
+    font-family: 'Lato', sans-serif;
+    z-index: 20;
+    border: 1px solid #fcb343;
+    width: 856px;
+    padding: 12px 20px;
+    margin: 8px 0;
+    position: absolute;
+    left: 116px;
+    top: 179px;
+}
+
+
+.login {
+    
+    position: absolute;
+    background-color: #fcb343;
+    font-family: 'Teko', sans-serif;
+    font-size: 30px;
+    color: #000000;
+    border: none;
+    left: 116px;
+    top: 260px;
+    width: 200px;
+    height: 42px;
+}
+
+.cancel-btn{
+    
+    position: absolute;
+    background-color: #fa4d05;
+    font-family: 'Teko', sans-serif;
+    font-size: 30px;
+    color: #000000;
+    border: none;
+    left: 338px;
+    top: 260px;
+    width: 200px;
+    height: 42px;
+}
+
+.cancel-btn:hover{
+    
+    background-color: #842903;
+}
+   
+
+.forgot{
+    
+    color: #ffffff;
+    text-decoration: none;
+    font-family: 'Lato', sans-serif;
+    font-weight: lighter;
+    font-size: 25px;
+    position: absolute;
+    right: 120px;
+    top: 270px;
+}
+
+.forgot:hover{
+    
+    color: #0061fd;
+}
+
+
+.question{
+    
+    position: absolute;
+    color: #ffffff;
+    font-family: 'Teko', sans-serif;
+    font-size: 60px;
+    top: 350px;
+    left: 370px;
+}
+
+.account{
+    
+    z-index: 20;
+    position: absolute;
+    background-color: #18aa12;
+    font-family: 'Teko', sans-serif;
+    font-size: 30px;
+    color: #000000;
+    border: none;
+    top: 420px;
+    left: 370px;
+    width: 390px;
+    height: 42px;
+}
+
+.account:hover{
+    
+    background-color: #0e5c0b;
+}
+
+
+
+
+
+
+/*video page*/
+
+
+
+
+
+
+
+
+
+.slide-video{
+    
+    position: relative;
+    width: 1140px;
+    height: 385px;
+    border: 1px solid #fcb343;
+    left: 113px;
+    top: 100px;
+}
+
+.left-arrowr{
+    
+    position: absolute;
+    top: 150px;
+    left: -60px;
+}
+
+.right-arrowr{
+    
+    position: absolute;
+    top: 150px;
+    right: -60px;
+}
+
+.header-box{
+    
+   position: absolute;
+   width: 1140px;
+   height: 60px;
+   border: 1px solid #fcb343;
+   left: 113px;
+   top: 680px;
+}
+
+.tv-header{
+    
+    font-family: 'Teko', sans-serif;
+    font-size: 50px;
+    color: #ffffff;
+    position: absolute;
+    left: 445px;
+    top: 10px;
+}
+
+.video-article-one{
+    
+    position: relative;
+}
+
+.video-page-one{
+    
+    position: absolute;
+    width: 560px;
+    height: 315px;
+    border: 1px solid #fcb343;  
+    top: 300px;
+    left: 113px;
+}
+
+.video-page-two{
+    
+    width: 560px;
+    height: 315px;
+    border: 1px solid #fcb343; 
+    top: 300px;
+    right: 113px;
+    position: absolute;
+}
+
+.footer-video{
+    
+    margin-top: 1800px;
+}
+
+.video-page-three{
+    
+    width: 560px;
+    height: 315px;
+    border: 1px solid #fcb343; 
+    top: 634px;
+    right: 113px;
+    position: absolute;
+}
+
+.video-page-four{
+    
+    position: absolute;
+    width: 560px;
+    height: 315px;
+    border: 1px solid #fcb343;  
+    top: 634px;
+    left: 113px;
+}
+
+.header-box-two{
+    
+   position: absolute;
+   width: 1140px;
+   height: 60px;
+   border: 1px solid #fcb343;
+   left: 113px;
+   top: 1545px;
+}
+
+.tv-header-two{
+    
+    font-family: 'Teko', sans-serif;
+    font-size: 50px;
+    color: #ffffff;
+    position: absolute;
+    left: 480px;
+    top: 10px;
+}
+
+.video-article-two{
+    
+    position: relative;
+    top: 865px;
+}
+
+.video-page-five{
+    
+    position: absolute;
+    width: 560px;
+    height: 315px;
+    border: 1px solid #fcb343;  
+    top: 300px;
+    left: 113px;
+}
+
+.video-page-six{
+    
+    width: 560px;
+    height: 315px;
+    border: 1px solid #fcb343; 
+    top: 300px;
+    right: 113px;
+    position: absolute;
+}
+
+.video-page-seven{
+    
+    width: 560px;
+    height: 315px;
+    border: 1px solid #fcb343; 
+    top: 634px;
+    right: 113px;
+    position: absolute;
+}
+
+.video-page-eight{
+    
+    position: absolute;
+    width: 560px;
+    height: 315px;
+    border: 1px solid #fcb343;  
+    top: 634px;
+    left: 113px;
+}
