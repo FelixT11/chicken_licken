@@ -1525,14 +1525,14 @@ label{
    top: 160px;
 }
 
-.tv-header-two{
+.header-box-two{
     
-    font-family: 'Teko', sans-serif;
-    font-size: 50px;
-    color: #ffffff;
-    position: absolute;
-    left: 480px;
-    top: 10px;
+   position: absolute;
+   width: 1140px;
+   height: 60px;
+   border: 1px solid #fcb343;
+   left: 113px;
+   top: 160px;
 }
 
 .video-article-two{
